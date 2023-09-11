@@ -1,4 +1,4 @@
-export default {
+const notificationOptions = {
     position: "bottom-right",
     autoClose: 5000,
     hideProgressBar: false,
@@ -7,4 +7,6 @@ export default {
     draggable: true,
     progress: undefined,
     theme: "light",
-    }
+}
+
+export default notificationOptions;

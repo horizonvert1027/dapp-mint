@@ -48,7 +48,7 @@ export function Base() {
       }
     }
     fetchs()
-  }, [balance.address])
+  }, [balance.address, contract, setMintEnabled, setbalance])
 
   // Listen for "Transfer" events from the contract
   contract.on("Transfer", async (to, amount, from) => {
